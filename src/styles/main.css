@@ -14,10 +14,10 @@ div#menu-container {
   border: 1px solid red;
   display: flex;
   justify-content: center;
+  height: 50px;
 }
 
 div#menu {
-  border: 1px solid red;
   width: 900px;
   display: flex;
   justify-content: space-between;
@@ -26,4 +26,17 @@ div#menu {
 
 div#main-container {
   flex: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid blue;
+}
+
+footer p#footer-text > a {
+  text-decoration: none;
+  color: #000;
 }
